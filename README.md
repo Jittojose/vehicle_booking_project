@@ -71,3 +71,9 @@ GET	/api/bookings/<id>/	Booking detail
   "end_date": "2025-01-20",
   "customer_name": "John Doe"
 }
+
+Serverrunning and testing video drive link:https://drive.google.com/drive/folders/1o6doSgnhos6eFNFlhefqm58MJom2FRyw?usp=drive_link
+
+
+
+
