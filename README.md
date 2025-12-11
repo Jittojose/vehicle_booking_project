@@ -18,7 +18,8 @@ Postman / Swagger
 Setup & Installation
 
 1️--- Clone the repository
-git clone https://github.com/USERNAME/vehicle_booking_project.git
+git clone https://github.com/Jittojose/vehicle_booking_project.git
+
 cd vehicle_booking_project/backend
 
 2️--- Create Virtual Environment
