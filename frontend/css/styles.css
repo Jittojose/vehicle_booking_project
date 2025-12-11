@@ -1,0 +1,66 @@
+:root {
+  --primary: #2563eb;
+  --accent: #06b6d4;
+  --muted: #6b7280;
+  --bg: #f8fafc;
+}
+
+body {
+  min-height: 100vh;
+  /* lighter overlay so the background image is clearly visible */
+  background-image:
+    linear-gradient(
+      rgba(15, 23, 42, 0.15),
+      rgba(15, 23, 42, 0.15)
+    ),
+    url('/static/vehicle1.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #111827;
+}
+
+.bg-app {
+  /* let the background image show through; tweak alpha if you want more tint */
+  background-color: transparent;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.card {
+  border-radius: 0.75rem;
+}
+
+.global-loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.35);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
+  z-index: 2000;
+}
+
+.global-loading-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.list-group-item {
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
